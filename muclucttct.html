@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khúc Ca Hy Vọng - Mạch Cốt Truyện</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: url('https://i.pinimg.com/736x/1f/55/b0/1f55b0448a4e0e474b4ace5245236306.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        body.fade-in {
+            opacity: 1;
+        }
+
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 2px solid #ff6f91;
+        }
+
+        header h1 {
+            color: #ff9fbd;
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+
+        header h2 {
+            color: #a2d2ff;
+            font-size: 1.5rem;
+            margin-top: 10px;
+        }
+
+        .storyline-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        .storyline-box {
+            background-color: rgba(0, 0, 0, 0.4);
+            border: 2px solid #ff9fbd;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .storyline-link {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #ff9fbd;
+            text-decoration: none;
+            transition: color 0.3s ease, transform 0.2s ease;
+        }
+
+        .storyline-link:hover {
+            color: #fff;
+            transform: scale(1.05);
+        }
+
+        .back-to-home {
+            background-color: #ff9fbd;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-decoration: none;
+            display: block;
+            margin-top: 30px;
+            transition: transform 0.2s ease;
+        }
+
+        footer {
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            text-align: center;
+            padding: 10px 0;
+            margin-top: auto;
+        }
+
+        footer p {
+            color: #fff;
+            font-size: 0.8rem;
+        }
+
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        main {
+            flex: 1;
+        }
+
+        @media (min-width: 768px) {
+            .storyline-container {
+                grid-template-columns: 1fr 1fr;
+                margin-left: 100px;
+                margin-right: 100px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .storyline-container {
+                grid-template-columns: 1fr;
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Khúc Ca Hy Vọng</h1>
+        <h2>Mục Lục - Tóm Tắt Cốt Truyện</h2>
+    </header>
+
+    <main>
+        <div class="storyline-container">
+            <div class="storyline-box">
+                <a href="chapter1.html" class="storyline-link">Chương 1: Ánh sáng bình minh</a>
+            </div>
+            <div class="storyline-box">
+                <a href="chapter2.html" class="storyline-link">Chương 2: Gặp gỡ định mệnh</a>
+            </div>
+            <div class="storyline-box">
+                <a href="chapter3.1.html" class="storyline-link">Chương 3.1: Biến cố đau thương</a>
+            </div>
+            <div class="storyline-box">
+                <a href="chapter3.2.html" class="storyline-link">Chương 3.2: Hồi sinh từ đống tro tàn</a>
+            </div>
+            <div class="storyline-box">
+                <a href="chapter4.html" class="storyline-link">Chương 4: Ánh sáng hy vọng</a>
+            </div>
+            <div class="storyline-box">
+                <a href="chapter5.html" class="storyline-link">Chương 5: Bóng ma chiến tranh</a>
+            </div>
+            <div class="storyline-box">
+                <a href="chapter6.html" class="storyline-link">Chương 6: Vết nứt bí ẩn (Quá khứ)</a>
+            </div>
+            <div class="storyline-box">
+                <a href="chapter7.html" class="storyline-link">Chương 7: Liên minh bất đắc dĩ (Hiện tại)</a>
+            </div>
+            <div class="storyline-box">
+                <a href="chapter8.html" class="storyline-link">Chương 8: Tia hy vọng</a>
+            </div>
+            <div class="storyline-box">
+                <a href="chapter9.html" class="storyline-link">Chương 9: Nỗi sợ hãi lan tràn</a>
+            </div>
+            <div class="storyline-box">
+                <a href="chapter10.html" class="storyline-link">Chương 10: Cuộc chiến không ngừng nghỉ</a>
+            </div>
+            <div class="storyline-box">
+                <a href="chapter11.html" class="storyline-link">Chương 11: Bí mật về vết nứt</a>
+            </div>
+            <div class="storyline-box">
+                <a href="chapter12.html" class="storyline-link">Chương 12: Niềm tin vào bản thân</a>
+            </div>
+            <div class="storyline-box">
+                <a href="chapter13.html" class="storyline-link">Chương 13: Chiến thắng cuối cùng</a>
+            </div>
+            <div class="storyline-box">
+                <a href="chapter14.html" class="storyline-link">Chương 14: Tương lai mới</a>
+            </div>
+            <div class="storyline-box">
+                <a href="chapter15.html" class="storyline-link">Chương 15: Khúc ca hy vọng</a>
+            </div>
+        </div>
+
+        <a href="wp.html" class="back-to-home">Quay về Trang Chủ</a>
+    </main>
+
+    <footer>
+        <p>© 2025 Khúc Ca Hy Vọng by nguyeenxduyanhh. Tất cả bản quyền được bảo vệ.</p>
+    </footer>
+
+    <script>
+        window.addEventListener('load', function () {
+            document.body.classList.add('fade-in');
+        });
+    </script>
+</body>
+</html>
