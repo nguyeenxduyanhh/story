@@ -13,13 +13,6 @@ It follows the journey of Mai and Kaito as they navigate a world filled with cha
 If you like the idea or have feedback to share, feel free to create a Pull Request or open an Issue.  
 I’m always eager to learn from everyone! 💡
 
-
-## 📬 Contact Me
-
-If you’d like to connect or discuss more, here’s how to reach me:  
-📧 Email: [nguyeenxduyanh10@gmail.com](mailto:nguyeenxduyanh10@gmail.com)  
-📱 Discord: nguyeenxduyanhh
-
 The storyline is still unfinished, is being completed, and will be completed...
 
 Thank you for stopping by! Have an amazing day! 🌈  
