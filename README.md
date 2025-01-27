@@ -1,4 +1,4 @@
-# The Song of Hope 🌟
+# Song of Hope 🌟
 
 Hi there! Welcome to my personal project, created with lots of love and effort. ❤️  
 I’m just starting my coding journey, so if you spot anything that could be improved, please go easy on me! 😅  
@@ -7,7 +7,7 @@ I’m just starting my coding journey, so if you spot anything that could be imp
 
 ## 🌟 About the Project
 
-**The Song of Hope** is a story set in a fictional dystopian world in 2055.  
+**Song of Hope** is a story set in a fictional dystopian world in 2055.  
 It follows the journey of Mai and Kaito as they navigate a world filled with challenges and hope. 🌏✨  
 
 If you like the idea or have feedback to share, feel free to create a Pull Request or open an Issue.  
